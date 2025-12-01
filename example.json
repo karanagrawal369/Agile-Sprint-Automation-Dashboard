@@ -1,0 +1,5 @@
+{
+  "run_sprint_cycle": {"method": "POST", "path": "/run/sprint-cycle"},
+  "generate_tests": {"method": "POST", "path": "/agents/qa/generate", "body": {"sprint_id": "sprint-1"}},
+  "run_triage": {"method": "POST", "path": "/agents/triage/run"}
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>QA & Agile Agents</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>QA & Agile Agents</h1>
+    <div class="button-row">
+      <button id="runSprint">Run Sprint Cycle</button>
+      <button id="runTriage">Run Triage</button>
+      <button id="runQA">Generate QA</button>
+      <button id="refresh">Refresh Status</button>
+    </div>
+    <div id="loader" class="loader" style="display:none"></div>
+    <div class="card">
+      <h2>Trace</h2>
+      <pre id="trace">loading...</pre>
+    </div>
+    <div class="card">
+      <h2>Last Session</h2>
+      <pre id="session">loading...</pre>
+    </div>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
